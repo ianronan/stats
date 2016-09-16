@@ -1,3 +1,54 @@
 // Place all the styles related to the Features controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.features {
+  table {
+    border-collapse: collapse;
+  }
+
+  table tr td {
+    padding: 5px;
+    vertical-align: top;
+  }
+
+  .list_report {
+    width:  200px;
+    height: 200px;
+    border: 2px solid #fff;
+  }
+
+  .list_description {
+    width: 75%;
+    color: #fff;
+
+    dl {
+      margin: 0;
+    }
+
+    dt {
+      color:        #fff;
+      font-weight:  bold;
+      font-size:    larger;
+    }
+
+    dd {
+      margin: 0;
+    }
+  }
+
+  .list_actions {
+    font-size:    x-small;
+    text-align:   right;
+    padding-left: 1em;
+    color: #fff;
+  }
+
+  .list_line_even {
+    background:   #037f9a;
+  }
+
+  .list_line_odd {
+    background:   #049dbe;
+  }
+}
